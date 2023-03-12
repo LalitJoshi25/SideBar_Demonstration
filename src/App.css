@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Playfair Display', serif;
+}
+.containerr{
+    display: flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sideba{
+    background-color: black;
+    color: rgb(252, 252, 252);
+    height: 100vh;
+    width: 200px;
+    transition: all 0.7s;
+    /* color: rgb(255, 187, 60); */
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: rgb(238, 248, 248);
+    gap: 1rem;
+    padding: 20px 15px;
+    font-size: large;
+    transition: all 0.7s;
+}
+.link:hover{
+    color: rgb(7, 7, 7);
+    background-color: aquamarine;
+    
+    transition: all 0.7s;
+}
+.active{
+    background-color: aquamarine;
+    color: rgb(7, 7, 7);
+}
